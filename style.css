@@ -1,0 +1,43 @@
+﻿#editor
+{
+  width:800px;
+  height: 600px;
+}
+
+div.CPAuto-instruction {
+  font-size:small;
+  background-color:#cccccc;
+  font-family:sans-serif;
+  border:1px solid black;
+}
+
+span.CPAuto-instruction-activeParam
+{
+  font-weight:bold;
+  font-style:italic;
+}
+
+div.CPAuto-suggestions
+{
+  font-size: small;
+  background-color:azure;
+  font-family:sans-serif;
+  border:1px solid black;
+}
+
+ul.CPAuto-suggestions-list
+{
+  margin:0;
+  padding:0;
+}
+
+ul.CPAuto-suggestions-list li
+{
+  list-style:none;
+}
+
+ul.CPAuto-suggestions-list li.CPAuto-suggestions-active
+{
+  background-color:lightblue;
+  font-style:italic;
+}
