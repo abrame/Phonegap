@@ -20,14 +20,14 @@ data.vars =
 
 data.fields =
   [
-    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Username is aaronb", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Stuff and more stuff", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Password is password", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "bacon and eggs", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "I like bacon", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "I like milk", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "I like starcraft", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "I like pokemon", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Username", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Stuff", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Password", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "DoB", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My record", name: "Age", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "Info", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "More Stuff", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.record, parentObjectName: "My other record", name: "Height", type: CPUtils.Type.text },
     { fieldType: CPUtils.Type.search, parentObjectName: "My search", name: "Username", type: CPUtils.Type.text },
     { fieldType: CPUtils.Type.search, parentObjectName: "My search", name: "DOB", type: CPUtils.Type.text },
     { fieldType: CPUtils.Type.search, parentObjectName: "My search", name: "Height", type: CPUtils.Type.text },
@@ -39,10 +39,10 @@ data.fields =
     { fieldType: CPUtils.Type.pi, parentObjectName: "My pi 2", name: "Running out of ideas", type: CPUtils.Type.text },
     { fieldType: CPUtils.Type.pi, parentObjectName: "My pi 2", name: "idk", type: CPUtils.Type.text },
     { fieldType: CPUtils.Type.po, parentObjectName: "My po", name: "Output", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.po, parentObjectName: "My po", name: "November Rain", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.po, parentObjectName: "My po", name: "I'm currently", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.po, parentObjectName: "My po 2", name: "Listening to", type: CPUtils.Type.text },
-    { fieldType: CPUtils.Type.po, parentObjectName: "My po 2", name: "Pandora on my phone", type: CPUtils.Type.text }
+    { fieldType: CPUtils.Type.po, parentObjectName: "My po", name: "Output2", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.po, parentObjectName: "My po", name: "Result", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.po, parentObjectName: "My po 2", name: "Things", type: CPUtils.Type.text },
+    { fieldType: CPUtils.Type.po, parentObjectName: "My po 2", name: "Hello", type: CPUtils.Type.text }
   ];
 
 data.instrs =
